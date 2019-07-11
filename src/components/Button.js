@@ -16,7 +16,7 @@ export const ButtonContainer = styled.button`
   &:hover {
     background: ${prop =>
       prop.cart ? "var(--mainYellow)" : "var(--lightBlue)"};
-    color: ${prop => (prop.cart ? "var(--mainYellow)" : "var(--lightBlue)")};
+    color: var(--mainBlue);
   }
   &:focus {
     outline: none;
